@@ -2,32 +2,7 @@ import React from 'react';
 import EditorJSHTML from 'editorjs-html';
 
 function EditorContent() {
-    const editorData = {
-
-        "time": 1627385326368,
-        "blocks": [
-          {
-            "type": "header",
-            "data": {
-              "text": "Título do Artigo",
-              "level": 2
-            }
-          },
-          {
-            "type": "paragraph",
-            "data": {
-              "text": "Este é um parágrafo de exemplo."
-            }
-          },
-          {
-            "type": "list",
-            "data": {
-              "style": "unordered",
-              "items": ["Item 1", "Item 2", "Item 3"]
-            }
-          }
-        ]
-      }
+    const editorData = {"time":1690548842316,"blocks":[{"id":"j002yc5SUP","type":"paragraph","data":{"text":"ola mundo"}}],"version":"2.23.2"}
 
   // Convert Editor.js content to HTML with custom classes
   const htmlContent = convertToHTML(editorData);
